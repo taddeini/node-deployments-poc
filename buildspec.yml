@@ -3,9 +3,9 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm install
+      - npm ci
 
 artifacts:
   files:
-    - node_modules
+    - node_modules/**/*
     - server.js
